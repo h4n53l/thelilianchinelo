@@ -1,0 +1,154 @@
+{
+    "sourceFile": "components/PostCard.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 34,
+            "patches": [
+                {
+                    "date": 1644444979379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644444987859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,9 @@\n-na\n\\ No newline at end of file\n+const PostCard = () => {\r\n+    return (\r\n+        <div>\r\n+            Enter\r\n+        </div>\r\n+    );\r\n+}\r\n+\r\n+export default PostCard;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644445040967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-const PostCard = () => {\r\n+const PostCard = ({post}) => {\r\n     return (\r\n         <div>\r\n             Enter\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1644445047050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const PostCard = ({post}) => {\r\n     return (\r\n         <div>\r\n-            Enter\r\n+           {post.tit}\r\n         </div>\r\n     );\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1644445052384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n const PostCard = ({post}) => {\r\n     return (\r\n         <div>\r\n-           {post.tit}\r\n+           {post.title}\r\n+           {post.title}\r\n         </div>\r\n     );\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1644445059972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const PostCard = ({post}) => {\r\n     return (\r\n         <div>\r\n            {post.title}\r\n-           {post.title}\r\n+           {post.ex}\r\n         </div>\r\n     );\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1644449462252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const PostCard = ({post}) => {\r\n     return (\r\n-        <div>\r\n+        <div cla>\r\n            {post.title}\r\n-           {post.ex}\r\n+           {post.excerpt}\r\n         </div>\r\n     );\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1644449468217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const PostCard = ({post}) => {\r\n     return (\r\n-        <div cla>\r\n+        <div className=\"bg-white\">\r\n            {post.title}\r\n            {post.excerpt}\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644449473993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const PostCard = ({post}) => {\r\n     return (\r\n-        <div className=\"bg-white\">\r\n+        <div className=\"bg-white shadow\">\r\n            {post.title}\r\n            {post.excerpt}\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644449482382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const PostCard = ({post}) => {\r\n     return (\r\n-        <div className=\"bg-white shadow\">\r\n+        <div className=\"bg-white shadow-lg rounded\">\r\n            {post.title}\r\n            {post.excerpt}\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644449489085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const PostCard = ({post}) => {\r\n     return (\r\n-        <div className=\"bg-white shadow-lg rounded\">\r\n+        <div className=\"bg-white shadow-lg rounded-lg p-0 \">\r\n            {post.title}\r\n            {post.excerpt}\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644449496347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const PostCard = ({post}) => {\r\n     return (\r\n-        <div className=\"bg-white shadow-lg rounded-lg p-0 \">\r\n+        <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-\">\r\n            {post.title}\r\n            {post.excerpt}\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644449504234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const PostCard = ({post}) => {\r\n     return (\r\n-        <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-\">\r\n+        <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 \">\r\n            {post.title}\r\n            {post.excerpt}\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644449517844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n const PostCard = ({post}) => {\r\n     return (\r\n-        <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 \">\r\n-           {post.title}\r\n-           {post.excerpt}\r\n+        <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n+           <div></div>>\r\n         </div>\r\n     );\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1644449525231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n const PostCard = ({post}) => {\r\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n-           <div></div>>\r\n+           <div>\r\n+               </div>\r\n         </div>\r\n     );\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1644449530621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const PostCard = ({post}) => {\r\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n-           <div>\r\n+           <div >\r\n                </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644449544338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n const PostCard = ({post}) => {\r\n+    co\r\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n-           <div >\r\n+           <div className=\"\">\r\n                </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644449549824,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const PostCard = ({post}) => {\r\n-    co\r\n+    console.log()\r\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n            <div className=\"\">\r\n                </div>\r\n"
+                },
+                {
+                    "date": 1644449563414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const PostCard = ({post}) => {\r\n-    console.log()\r\n+    console.log(post)\r\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n-           <div className=\"\">\r\n+           <div className=\"relative\">\r\n                </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644449570552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const PostCard = ({post}) => {\r\n     console.log(post)\r\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n-           <div className=\"relative\">\r\n+           <div className=\"relative overflow-\">\r\n                </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644449576524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const PostCard = ({post}) => {\r\n     console.log(post)\r\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n-           <div className=\"relative overflow-\">\r\n+           <div className=\"relative overflow-hidden shad\">\r\n                </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644449581905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const PostCard = ({post}) => {\r\n     console.log(post)\r\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n-           <div className=\"relative overflow-hidden shad\">\r\n+           <div className=\"relative overflow-hidden shadow-md \">\r\n                </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644449588773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const PostCard = ({post}) => {\r\n     console.log(post)\r\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n-           <div className=\"relative overflow-hidden shadow-md \">\r\n+           <div className=\"relative overflow-hidden shadow-md pb-80\">\r\n                </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644449594343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const PostCard = ({post}) => {\r\n     console.log(post)\r\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n-           <div className=\"relative overflow-hidden shadow-md pb-80\">\r\n+           <div className=\"relative overflow-hidden shadow-md pb-80 mb-6\">\r\n                </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644449600911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n     console.log(post)\r\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n            <div className=\"relative overflow-hidden shadow-md pb-80 mb-6\">\r\n+               <\r\n                </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644449609752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     console.log(post)\r\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n            <div className=\"relative overflow-hidden shadow-md pb-80 mb-6\">\r\n-               <\r\n+               <img \r\n                </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644449617414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n            <div className=\"relative overflow-hidden shadow-md pb-80 mb-6\">\r\n                <img \r\n+               src=\"http://placehold.it/\"\r\n                </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644449627187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n            <div className=\"relative overflow-hidden shadow-md pb-80 mb-6\">\r\n                <img \r\n-               src=\"http://placehold.it/\"\r\n+               src={\"http://placehold.it/\"}\r\n+               />\r\n                </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644449632960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n            <div className=\"relative overflow-hidden shadow-md pb-80 mb-6\">\r\n                <img \r\n-               src={\"http://placehold.it/\"}\r\n+               src={post.fe}\r\n                />\r\n                </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644449657316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n            <div className=\"relative overflow-hidden shadow-md pb-80 mb-6\">\r\n                <img \r\n-               src={post.fe}\r\n+               src={post.featuredImage.url}\r\n+               alt=\r\n                />\r\n                </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644449662770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n            <div className=\"relative overflow-hidden shadow-md pb-80 mb-6\">\r\n                <img \r\n                src={post.featuredImage.url}\r\n-               alt=\r\n+               alt={post.tit}\r\n                />\r\n                </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644449670435,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,11 @@\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n            <div className=\"relative overflow-hidden shadow-md pb-80 mb-6\">\r\n                <img \r\n+               cla\r\n                src={post.featuredImage.url}\r\n-               alt={post.tit}\r\n+               alt={post.title}\r\n                />\r\n                </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644449676274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n            <div className=\"relative overflow-hidden shadow-md pb-80 mb-6\">\r\n                <img \r\n-               cla\r\n+               className=\"object.\"\r\n                src={post.featuredImage.url}\r\n                alt={post.title}\r\n                />\r\n                </div>\r\n"
+                },
+                {
+                    "date": 1644449681837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     return (\r\n         <div className=\"bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8\">\r\n            <div className=\"relative overflow-hidden shadow-md pb-80 mb-6\">\r\n                <img \r\n-               className=\"object-top \"\r\n+               className=\"object-top a\"\r\n                src={post.featuredImage.url}\r\n                alt={post.title}\r\n                />\r\n                </div>\r\n"
+                },
+                {
+                    "date": 1644450048042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n                </div>\r\n                <h1 className=\"transition duration-700 text-center mb-8 cursor-pointer hover:text-pink-600 text-3xl font-semibold\">\r\n                    <Link\r\n                    href={}\r\n+                   \r\n                </h1>\r\n         </div>\r\n     );\r\n }\r\n"
+                }
+            ],
+            "date": 1644444979379,
+            "name": "Commit-0",
+            "content": "na"
+        }
+    ]
+}

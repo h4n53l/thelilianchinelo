@@ -1,0 +1,66 @@
+{
+    "sourceFile": "components/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1644445119222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644445126422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-expor\n\\ No newline at end of file\n+export {default}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644445133098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-export {default}\n\\ No newline at end of file\n+export {default as PostCard}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644445140088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-export {default as PostCard}\n\\ No newline at end of file\n+export {default as PostCard} from './postcards'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644445147711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-export {default as PostCard} from './postcards'\n\\ No newline at end of file\n+export {default as PostCard} from './PostCards'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644445154107,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n+export {default as PostCard} from './PostCards'\r\n+export {default as PostCard} from './PostCards'\r\n export {default as PostCard} from './PostCards'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644445160145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n export {default as PostCard} from './PostCards'\r\n-export {default as PostCard} from './PostCards'\r\n+export {default as Postw} from './PostCards'\r\n export {default as PostCard} from './PostCards'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644445166964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n export {default as PostCard} from './PostCards'\r\n-export {default as Postw} from './PostCards'\r\n+export {default as PostWidget} from './PostCards'\r\n export {default as PostCard} from './PostCards'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644445186526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n export {default as PostCard} from './PostCards'\r\n export {default as PostWidget} from './PostCards'\r\n-export {default as PostCard} from './PostCards'\n\\ No newline at end of file\n+export {default as Categ} from './PostCards'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644445193478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n export {default as PostCard} from './PostCards'\r\n export {default as PostWidget} from './PostCards'\r\n-export {default as Categ} from './PostCards'\n\\ No newline at end of file\n+export {default as Categories} from './Categories'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644445201622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n-export {default as PostCard} from './PostCards'\r\n-export {default as PostWidget} from './PostCards'\r\n+export {default as PostCard} from './PostCard'\r\n+export {default as PostWidget} from './PostWidget'\r\n export {default as Categories} from './Categories'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644447174947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n export {default as PostCard} from './PostCard'\r\n export {default as PostWidget} from './PostWidget'\r\n+export {default as Categories} from './Categories'\r\n export {default as Categories} from './Categories'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644447183468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n export {default as PostCard} from './PostCard'\r\n export {default as PostWidget} from './PostWidget'\r\n export {default as Categories} from './Categories'\r\n-export {default as Categories} from './Categories'\n\\ No newline at end of file\n+export {default as Layout} from './Layout'\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1644445119222,
+            "name": "Commit-0",
+            "content": "expor"
+        }
+    ]
+}

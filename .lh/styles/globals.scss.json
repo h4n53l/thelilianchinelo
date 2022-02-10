@@ -1,0 +1,22 @@
+{
+    "sourceFile": "styles/globals.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1644445646008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644445680607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     width: 100%;\r\n     height: 100vh;\r\n     //background: linear-gradient(to right bottom, #6d327c, #485DA6, #00a1ba, #01b18e, #32b37b);\r\n     // background: #D3D3D3;\r\n-    background-image: url(\"../public/bg.jpg\");\r\n+    background-image: url(\"../public/backg.jpg\");\r\n     position: fixed;\r\n     left: 0;\r\n     top: 0;\r\n     z-index: -1;\r\n"
+                }
+            ],
+            "date": 1644445646008,
+            "name": "Commit-0",
+            "content": "@tailwind base;\r\n@tailwind components;\r\n@tailwind utilities;\r\n\r\n@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');\r\n\r\nhtml,\r\nbody {\r\n  padding: 0;\r\n  margin: 0;\r\n  font-family: 'Montserrat', sans-serif;\r\n  &:before{\r\n    content:'';\r\n    content: \"\";\r\n    width: 100%;\r\n    height: 100vh;\r\n    //background: linear-gradient(to right bottom, #6d327c, #485DA6, #00a1ba, #01b18e, #32b37b);\r\n    // background: #D3D3D3;\r\n    background-image: url(\"../public/bg.jpg\");\r\n    position: fixed;\r\n    left: 0;\r\n    top: 0;\r\n    z-index: -1;\r\n    background-position: 50% 50%;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n  }\r\n}\r\n\r\n.text-shadow{\r\n  text-shadow: 0px 2px 0px rgb(0 0 0 / 30%);\r\n}\r\n\r\n.adjacent-post{\r\n  & .arrow-btn{\r\n    transition: width 300ms ease;\r\n    width: 50px;\r\n  }\r\n  &:hover{\r\n    & .arrow-btn{\r\n      width: 60px;\r\n    }\r\n  }\r\n}\r\n\r\n.react-multi-carousel-list {\r\n  & .arrow-btn{\r\n    transition: width 300ms ease;\r\n    width: 50px;\r\n    &:hover{\r\n      width: 60px;\r\n    }\r\n  }\r\n  \r\n}\r\n\r\na {\r\n  color: inherit;\r\n  text-decoration: none;\r\n}\r\n\r\n* {\r\n  box-sizing: border-box;\r\n}"
+        }
+    ]
+}

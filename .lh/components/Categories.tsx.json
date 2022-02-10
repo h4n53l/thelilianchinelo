@@ -1,0 +1,22 @@
+{
+    "sourceFile": "components/Categories.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1644445009965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644449905338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const Categories = () => {\r\n     return (\r\n         <div>\r\n-            Enter\r\n+            Categories\r\n         </div>\r\n     );\r\n }\r\n \r\n"
+                }
+            ],
+            "date": 1644445009965,
+            "name": "Commit-0",
+            "content": "const Categories = () => {\r\n    return (\r\n        <div>\r\n            Enter\r\n        </div>\r\n    );\r\n}\r\n\r\nexport default Categories;"
+        }
+    ]
+}

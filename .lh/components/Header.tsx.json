@@ -1,0 +1,326 @@
+{
+    "sourceFile": "components/Header.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 77,
+            "patches": [
+                {
+                    "date": 1644446417032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644446428521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const Header = () => {\r\n     return (\r\n-        <div>\r\n+        <div cl>\r\n             Enter\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644446434004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const Header = () => {\r\n     return (\r\n-        <div cl>\r\n+        <div className=\"container \">\r\n             Enter\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644446440051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const Header = () => {\r\n     return (\r\n-        <div className=\"container \">\r\n+        <div className=\"container mx-auto \">\r\n             Enter\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644446445731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const Header = () => {\r\n     return (\r\n-        <div className=\"container mx-auto \">\r\n+        <div className=\"container mx-auto px-10 \">\r\n             Enter\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644446458336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const Header = () => {\r\n     return (\r\n-        <div className=\"container mx-auto px-10 \">\r\n-            Enter\r\n+        <div className=\"container mx-auto px-10 mb-8\">\r\n+            <div>\r\n         </div>\r\n     );\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1644446463764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div>\r\n+                </\r\n         </div>\r\n     );\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1644446472298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n-            <div>\r\n-                </\r\n+            <div className=\"\">\r\n+\r\n+                </div>\r\n         </div>\r\n     );\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1644446480376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n-            <div className=\"\">\r\n+            <div className=\"border-b \">\r\n \r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446486083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n-            <div className=\"border-b \">\r\n+            <div className=\"border-b w-full inli\">\r\n \r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446495726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n-            <div className=\"border-b w-full inli\">\r\n+            <div className=\"border-b w-full inline-block border-blu\">\r\n \r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446502605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n-            <div className=\"border-b w-full inline-block border-blu\">\r\n+            <div className=\"border-b w-full inline-block border-blue-400 py\">\r\n \r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446514257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n-            <div className=\"border-b w-full inline-block border-blue-400 py\">\r\n-\r\n+            <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n+<div\r\n                 </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644446520128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n-<div\r\n+<div>\r\n+    \r\n+</div>\r\n                 </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644446525810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n-<div>\r\n-    \r\n+<div cla>\r\n+\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446531440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n-<div cla>\r\n+<div className=\"md:\">\r\n \r\n </div>\r\n                 </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1644446539596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n-<div className=\"md:\">\r\n+<div className=\"md:float-left \">\r\n \r\n </div>\r\n                 </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1644446546983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n-<div className=\"md:float-left \">\r\n-\r\n+<div className=\"md:float-left block\">\r\n+<L\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446557652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,12 @@\n+import Link from \"next/link\";\r\n+\r\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n-<L\r\n+<Link\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446563604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n-<Link\r\n+<Link />\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446576026,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n-<Link />\r\n+<Link to />\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446581997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n-<Link to />\r\n+<Link to=/>\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446588635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n-<Link to=/>\r\n+<Link hr/>\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446603306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,10 @@\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n-<Link hr/>\r\n+<Link href=\"/\"/>\r\n+<spa\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446609305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,11 @@\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n <Link href=\"/\"/>\r\n-<spa\r\n+<span>\r\n+    \r\n+</span>\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446615572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n <Link href=\"/\"/>\r\n <span>\r\n-    \r\n+    Lilian\r\n </span>\r\n </div>\r\n                 </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1644446620718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n <Link href=\"/\"/>\r\n-<span>\r\n+<span className=\"\">\r\n     Lilian\r\n </span>\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446626742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n <Link href=\"/\"/>\r\n-<span className=\"\">\r\n+<span className=\"cursor\">\r\n     Lilian\r\n </span>\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446633212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n <Link href=\"/\"/>\r\n-<span className=\"cursor\">\r\n+<span className=\"cursor-pointer font\">\r\n     Lilian\r\n </span>\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446638408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n <Link href=\"/\"/>\r\n-<span className=\"cursor-pointer font\">\r\n+<span className=\"cursor-pointer font-bold \">\r\n     Lilian\r\n </span>\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446645342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n <Link href=\"/\"/>\r\n-<span className=\"cursor-pointer font-bold \">\r\n+<span className=\"cursor-pointer font-bold text-4\">\r\n     Lilian\r\n </span>\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446650739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n <Link href=\"/\"/>\r\n-<span className=\"cursor-pointer font-bold text-4\">\r\n+<span className=\"cursor-pointer font-bold text-4xl text-\">\r\n     Lilian\r\n </span>\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446662011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,10 @@\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n <div className=\"md:float-left block\">\r\n-<Link href=\"/\"/>\r\n-<span className=\"cursor-pointer font-bold text-4xl text-\">\r\n+<Link href=\"/\">\r\n+<span className=\"cursor-pointer font-bold text-4xl text-white\">\r\n     Lilian\r\n </span>\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446668660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n <Link href=\"/\">\r\n <span className=\"cursor-pointer font-bold text-4xl text-white\">\r\n     Lilian\r\n </span>\r\n+</L\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446679527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,11 @@\n <Link href=\"/\">\r\n <span className=\"cursor-pointer font-bold text-4xl text-white\">\r\n     Lilian\r\n </span>\r\n-</L\r\n+</Link>\r\n </div>\r\n+<\r\n                 </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644446685283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,11 @@\n     Lilian\r\n </span>\r\n </Link>\r\n </div>\r\n-<\r\n+<div>\r\n+    \r\n+</div>\r\n                 </div>\r\n         </div>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1644446691176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,10 @@\n     Lilian\r\n </span>\r\n </Link>\r\n </div>\r\n-<div>\r\n-    \r\n+<div cla>\r\n+\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446697148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     Lilian\r\n </span>\r\n </Link>\r\n </div>\r\n-<div cla>\r\n+<div className=\"md:float-\">\r\n \r\n </div>\r\n                 </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1644446703322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     Lilian\r\n </span>\r\n </Link>\r\n </div>\r\n-<div className=\"md:float-\">\r\n+<div className=\"md:float-left hidd\">\r\n \r\n </div>\r\n                 </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1644446709095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     Lilian\r\n </span>\r\n </Link>\r\n </div>\r\n-<div className=\"md:float-left hidd\">\r\n+<div className=\"md:float-left hidden md:co\">\r\n \r\n </div>\r\n                 </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1644446716140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     Lilian\r\n </span>\r\n </Link>\r\n </div>\r\n-<div className=\"md:float-left hidden md:co\">\r\n+<div className=\"md:float-left hidden md:contents\">\r\n \r\n </div>\r\n                 </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1644446726151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import Link from \"next/link\";\r\n \r\n+\r\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n             <div className=\"border-b w-full inline-block border-blue-400 py-8\">\r\n"
+                },
+                {
+                    "date": 1644446735739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import Link from \"next/link\";\r\n \r\n+const ca\r\n \r\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n"
+                },
+                {
+                    "date": 1644446741078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import Link from \"next/link\";\r\n \r\n-const ca\r\n+const categories\r\n \r\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n"
+                },
+                {
+                    "date": 1644446747117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import Link from \"next/link\";\r\n \r\n-const categories\r\n+const categories = []\r\n \r\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n"
+                },
+                {
+                    "date": 1644446753964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import Link from \"next/link\";\r\n \r\n-const categories = []\r\n+const categories = [\r\n+    {name}\r\n+]\r\n \r\n const Header = () => {\r\n     return (\r\n         <div className=\"container mx-auto px-10 mb-8\">\r\n"
+                },
+                {
+                    "date": 1644446760978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import Link from \"next/link\";\r\n \r\n const categories = [\r\n-    {name}\r\n+    {name: ''}\r\n ]\r\n \r\n const Header = () => {\r\n     return (\r\n"
+                },
+                {
+                    "date": 1644446766179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import Link from \"next/link\";\r\n \r\n const categories = [\r\n-    {name: ''}\r\n+    {name: 'Test category'}\r\n ]\r\n \r\n const Header = () => {\r\n     return (\r\n"
+                },
+                {
+                    "date": 1644446777665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import Link from \"next/link\";\r\n \r\n const categories = [\r\n-    {name: 'Test category'}\r\n+    {name: 'Test category', slug: 'test'}\r\n ]\r\n \r\n const Header = () => {\r\n     return (\r\n"
+                },
+                {
+                    "date": 1644446784466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import Link from \"next/link\";\r\n \r\n const categories = [\r\n-    {name: 'Test category', slug: 'test'}\r\n+    {name: 'Test category', slug: 'test-slug'}\r\n ]\r\n \r\n const Header = () => {\r\n     return (\r\n"
+                },
+                {
+                    "date": 1644446794131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import Link from \"next/link\";\r\n \r\n const categories = [\r\n     {name: 'Test category', slug: 'test-slug'}\r\n+    {name: 'Test category1', slug: 'test-slug'}\r\n ]\r\n \r\n const Header = () => {\r\n     return (\r\n"
+                },
+                {
+                    "date": 1644446806603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import Link from \"next/link\";\r\n \r\n const categories = [\r\n     {name: 'Test category', slug: 'test-slug'}\r\n-    {name: 'Test category1', slug: 'test-slug'}\r\n+    {name: 'Test category1', slug: 'test-slug1'}\r\n ]\r\n \r\n const Header = () => {\r\n     return (\r\n@@ -16,9 +16,9 @@\n </span>\r\n </Link>\r\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n-\r\n+{}\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446813082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n </span>\r\n </Link>\r\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n-{}\r\n+{categories.m}\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446826196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n </span>\r\n </Link>\r\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n-{categories.m}\r\n+{categories.map((category))}\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446841555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,10 @@\n </span>\r\n </Link>\r\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n-{categories.map((category))}\r\n+{categories.map((category) =>\r\n+)}\r\n </div>\r\n                 </div>\r\n         </div>\r\n     );\r\n"
+                },
+                {
+                    "date": 1644446846801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n </span>\r\n </Link>\r\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n-{categories.map((category) =>\r\n+{categories.map((category) => (<>)\r\n )}\r\n </div>\r\n                 </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1644446858033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,11 @@\n </span>\r\n </Link>\r\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n-{categories.map((category) => (<>)\r\n+{categories.map((category) => (\r\n+    <Link\r\n+)\r\n )}\r\n </div>\r\n                 </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1644446863448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n </Link>\r\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n-    <Link\r\n+    <Link  key=\r\n )\r\n )}\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446870969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n </Link>\r\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n-    <Link  key=\r\n+    <Link  key={category.slug}\r\n )\r\n )}\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446880060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n </Link>\r\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n-    <Link  key={category.slug}\r\n+    <Link  key={category.slug} href={}\r\n )\r\n )}\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446891308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n </Link>\r\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n-    <Link  key={category.slug} href={}\r\n+    <Link  key={category.slug} href={`/category`}\r\n )\r\n )}\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446899728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n </Link>\r\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n-    <Link  key={category.slug} href={`/category`}\r\n+    <Link  key={category.slug} href={`/category/$`}\r\n )\r\n )}\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446907414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n </Link>\r\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n-    <Link  key={category.slug} href={`/category/$`}\r\n+    <Link  key={category.slug} href={`/category/${category.slug}`}\r\n )\r\n )}\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446913292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n </Link>\r\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n-    <Link  key={category.slug} href={`/category/${category.slug}`}\r\n+    <Link  key={category.slug} href={`/category/${category.slug}`}></Link>\r\n )\r\n )}\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446918933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,11 @@\n </Link>\r\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n-    <Link  key={category.slug} href={`/category/${category.slug}`}></Link>\r\n+    <Link  key={category.slug} href={`/category/${category.slug}`}>\r\n+        <span\r\n+    </Link>\r\n )\r\n )}\r\n </div>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1644446930571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n     <Link  key={category.slug} href={`/category/${category.slug}`}>\r\n-        <span\r\n+        <span></span>\r\n     </Link>\r\n )\r\n )}\r\n </div>\r\n"
+                },
+                {
+                    "date": 1644446939545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,11 @@\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n     <Link  key={category.slug} href={`/category/${category.slug}`}>\r\n-        <span></span>\r\n+        <span clas>\r\n+\r\n+        </span>\r\n     </Link>\r\n )\r\n )}\r\n </div>\r\n"
+                },
+                {
+                    "date": 1644446948373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n     <Link  key={category.slug} href={`/category/${category.slug}`}>\r\n-        <span clas>\r\n+        <span classname=\"\">\r\n \r\n         </span>\r\n     </Link>\r\n )\r\n"
+                },
+                {
+                    "date": 1644446955386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n     <Link  key={category.slug} href={`/category/${category.slug}`}>\r\n-        <span classname=\"\">\r\n+        <span classname=\"md:fo\">\r\n \r\n         </span>\r\n     </Link>\r\n )\r\n"
+                },
+                {
+                    "date": 1644446963374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n     <Link  key={category.slug} href={`/category/${category.slug}`}>\r\n-        <span classname=\"md:fo\">\r\n+        <span classname=\"md:float-right mt-\">\r\n \r\n         </span>\r\n     </Link>\r\n )\r\n"
+                },
+                {
+                    "date": 1644446968650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n     <Link  key={category.slug} href={`/category/${category.slug}`}>\r\n-        <span classname=\"md:float-right mt-\">\r\n+        <span classname=\"md:float-right mt-2 align\">\r\n \r\n         </span>\r\n     </Link>\r\n )\r\n"
+                },
+                {
+                    "date": 1644446976228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n     <Link  key={category.slug} href={`/category/${category.slug}`}>\r\n-        <span classname=\"md:float-right mt-2 align\">\r\n+        <span classname=\"md:float-right mt-2 align-middle text-\">\r\n \r\n         </span>\r\n     </Link>\r\n )\r\n"
+                },
+                {
+                    "date": 1644446990079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n     <Link  key={category.slug} href={`/category/${category.slug}`}>\r\n-        <span classname=\"md:float-right mt-2 align-middle text-\">\r\n+        <span classname=\"md:float-right mt-2 align-middle text-white ml\">\r\n \r\n         </span>\r\n     </Link>\r\n )\r\n"
+                },
+                {
+                    "date": 1644447043687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n     <Link  key={category.slug} href={`/category/${category.slug}`}>\r\n-        <span classname=\"md:float-right mt-2 align-middle text-white ml\">\r\n+        <span classname=\"md:float-right mt-2 align-middle text-white ml-4 font-semi\">\r\n \r\n         </span>\r\n     </Link>\r\n )\r\n"
+                },
+                {
+                    "date": 1644447049952,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n     <Link  key={category.slug} href={`/category/${category.slug}`}>\r\n-        <span classname=\"md:float-right mt-2 align-middle text-white ml-4 font-semi\">\r\n+        <span classname=\"md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer\">\r\n \r\n         </span>\r\n     </Link>\r\n )\r\n"
+                },
+                {
+                    "date": 1644447055857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n     <Link  key={category.slug} href={`/category/${category.slug}`}>\r\n         <span classname=\"md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer\">\r\n-\r\n+{}\r\n         </span>\r\n     </Link>\r\n )\r\n )}\r\n"
+                },
+                {
+                    "date": 1644447067120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,10 +18,10 @@\n </div>\r\n <div className=\"md:float-left hidden md:contents\">\r\n {categories.map((category) => (\r\n     <Link  key={category.slug} href={`/category/${category.slug}`}>\r\n-        <span classname=\"md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer\">\r\n-{}\r\n+        <span className=\"md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer\">\r\n+{category.name}\r\n         </span>\r\n     </Link>\r\n )\r\n )}\r\n"
+                },
+                {
+                    "date": 1644447077228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import Link from \"next/link\";\r\n \r\n const categories = [\r\n-    {name: 'Test category', slug: 'test-slug'}\r\n+    {name: 'Test category', slug: 'test-slug'},\r\n     {name: 'Test category1', slug: 'test-slug1'}\r\n ]\r\n \r\n const Header = () => {\r\n"
+                }
+            ],
+            "date": 1644446417032,
+            "name": "Commit-0",
+            "content": "const Header = () => {\r\n    return (\r\n        <div>\r\n            Enter\r\n        </div>\r\n    );\r\n}\r\n\r\nexport default Header;"
+        }
+    ]
+}

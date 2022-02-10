@@ -1,0 +1,90 @@
+{
+    "sourceFile": "pages/index.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 18,
+            "patches": [
+                {
+                    "date": 1644444551333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644444566781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import Head from 'next/head'\n \n export default function Home() {\n   return (\n-    <div className=\"flex min-h-screen flex-col items-center justify-center py-2\">\n+    <div className=\"containe\">\n       <Head>\n         <title>Create Next App</title>\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n"
+                },
+                {
+                    "date": 1644444573055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import Head from 'next/head'\n \n export default function Home() {\n   return (\n-    <div className=\"containe\">\n+    <div className=\"container mx-auto \">\n       <Head>\n         <title>Create Next App</title>\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n"
+                },
+                {
+                    "date": 1644444578726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import Head from 'next/head'\n \n export default function Home() {\n   return (\n-    <div className=\"container mx-auto \">\n+    <div className=\"container mx-auto px-10 mb-\">\n       <Head>\n         <title>Create Next App</title>\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n"
+                },
+                {
+                    "date": 1644444603444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n import Head from 'next/head'\n \n export default function Home() {\n   return (\n-    <div className=\"container mx-auto px-10 mb-\">\n+    <div className=\"container mx-auto px-10 mb-8\">\n       <Head>\n-        <title>Create Next App</title>\n+        <title>Lilian's Blog</title>\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n \n"
+                },
+                {
+                    "date": 1644444676782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       <Head>\n         <title>Lilian's Blog</title>\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n+<div\n \n-\n     </div>\n   )\n }\n"
+                },
+                {
+                    "date": 1644444682081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       <Head>\n         <title>Lilian's Blog</title>\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n-<div\n+<div></div>\n \n     </div>\n   )\n }\n"
+                },
+                {
+                    "date": 1644444688229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,11 @@\n       <Head>\n         <title>Lilian's Blog</title>\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n-<div></div>\n+<div cl>\n \n+</div>\n+\n     </div>\n   )\n }\n"
+                },
+                {
+                    "date": 1644444693882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       <Head>\n         <title>Lilian's Blog</title>\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n-<div cl>\n+<div className=\"grid gr\">\n \n </div>\n \n     </div>\n"
+                },
+                {
+                    "date": 1644444702245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       <Head>\n         <title>Lilian's Blog</title>\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n-<div className=\"grid gr\">\n+<div className=\"grid grid-cols-1 \">\n \n </div>\n \n     </div>\n"
+                },
+                {
+                    "date": 1644444708889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       <Head>\n         <title>Lilian's Blog</title>\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n-<div className=\"grid grid-cols-1 \">\n+<div className=\"grid grid-cols-1 lg:gri\">\n \n </div>\n \n     </div>\n"
+                },
+                {
+                    "date": 1644444715772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       <Head>\n         <title>Lilian's Blog</title>\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n-<div className=\"grid grid-cols-1 lg:gri\">\n+<div className=\"grid grid-cols-1 lg:grid-cols-\">\n \n </div>\n \n     </div>\n"
+                },
+                {
+                    "date": 1644444720996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n       <Head>\n         <title>Lilian's Blog</title>\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n-<div className=\"grid grid-cols-1 lg:grid-cols-\">\n+<div className=\"grid grid-cols-1 lg:grid-cols-12 gap\">\n \n </div>\n \n     </div>\n"
+                },
+                {
+                    "date": 1644444738114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,15 @@\n import Head from 'next/head'\n \n+const posts\n export default function Home() {\n   return (\n     <div className=\"container mx-auto px-10 mb-8\">\n       <Head>\n         <title>Lilian's Blog</title>\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n-<div className=\"grid grid-cols-1 lg:grid-cols-12 gap\">\n+<div className=\"grid grid-cols-1 lg:grid-cols-12 gap-12\">\n \n </div>\n \n     </div>\n"
+                },
+                {
+                    "date": 1644444744083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import Head from 'next/head'\n \n-const posts\n+const posts = [\n+  {}\n+]\n export default function Home() {\n   return (\n     <div className=\"container mx-auto px-10 mb-8\">\n       <Head>\n"
+                },
+                {
+                    "date": 1644444750320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import Head from 'next/head'\n \n const posts = [\n-  {}\n+  {title: ''}\n ]\n export default function Home() {\n   return (\n     <div className=\"container mx-auto px-10 mb-8\">\n"
+                },
+                {
+                    "date": 1644444757926,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import Head from 'next/head'\n \n const posts = [\n-  {title: ''}\n+  {title: 'Test title', }\n ]\n export default function Home() {\n   return (\n     <div className=\"container mx-auto px-10 mb-8\">\n"
+                },
+                {
+                    "date": 1644444765905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import Head from 'next/head'\n \n const posts = [\n-  {title: 'Test title', excerpt: 'Test E'}\n+  {title: 'Test title', excerpt: 'Test '}\n ]\n export default function Home() {\n   return (\n     <div className=\"container mx-auto px-10 mb-8\">\n"
+                },
+                {
+                    "date": 1644444937856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n   </div>\n ))}\n </div>\n \n-<div cl> \n+<div className=\"\"> \n \n </div>\n \n     </div>\n"
+                }
+            ],
+            "date": 1644444551333,
+            "name": "Commit-0",
+            "content": "import Head from 'next/head'\n\nexport default function Home() {\n  return (\n    <div className=\"flex min-h-screen flex-col items-center justify-center py-2\">\n      <Head>\n        <title>Create Next App</title>\n        <link rel=\"icon\" href=\"/favicon.ico\" />\n      </Head>\n\n\n    </div>\n  )\n}\n"
+        }
+    ]
+}
