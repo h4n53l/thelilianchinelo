@@ -22,7 +22,7 @@ const PostCard = ({ post }) => {
             src={post.author.photo.url}
             alt={post.author.name}
             height="30px"
-            width="30px"
+            width="50px"
           />
           <p className="inline align-middle text-gray-700 ml-2 text-lg">
               {post.author.name}
@@ -45,6 +45,7 @@ const PostCard = ({ post }) => {
       href={`/post/${post.slug}`}
       >
       <span className="transition duration-500 transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer">
+      Read More
       </span>
       </Link>
     </div>
