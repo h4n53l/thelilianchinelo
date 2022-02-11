@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-const categories = [
-    {name: 'Test category', slug: 'test-slug'},
-    {name: 'Test category1', slug: 'test-slug1'}
+const headerLinks = [
+    {name: 'Blog', slug: '/'},
+    {name: 'Forum', slug: 'forum'}
 ]
 
 const Header = () => {
@@ -17,10 +17,10 @@ const Header = () => {
 </Link>
 </div>
 <div className="md:float-left hidden md:contents">
-{categories.map((category) => (
-    <Link  key={category.slug} href={`/category/${category.slug}`}>
+{headerLinks.map((link) => (
+    <Link  key={link.slug} href={link.slug}>
         <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">
-{category.name}
+{link.name}
         </span>
     </Link>
 )
