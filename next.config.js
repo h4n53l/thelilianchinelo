@@ -2,6 +2,8 @@
 module.exports = {
   reactStrictMode: false,
   env: {
-    GraphQL_API: process.env.GraphQL_API,
+    GraphCMS_API: process.env.GraphCMS_API,
+    GraphCMS_Token: process.env.GraphCMS_Token,
+
   }
 }

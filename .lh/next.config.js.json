@@ -11,19 +11,19 @@
                 },
                 {
                     "date": 1644448390152,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n /** @type {import('next').NextConfig} */\n module.exports = {\n   reactStrictMode: true,\n   env: {\n+    GraphQL_API\n+  }\n }\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n /** @type {import('next').NextConfig} */\n module.exports = {\n   reactStrictMode: true,\n   env: {\n+    GraphCMS_API\n+  }\n }\n"
                 },
                 {
                     "date": 1644448400714,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /** @type {import('next').NextConfig} */\n module.exports = {\n   reactStrictMode: true,\n   env: {\n-    GraphQL_API\n+    GraphQL_API:\n   }\n }\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /** @type {import('next').NextConfig} */\n module.exports = {\n   reactStrictMode: true,\n   env: {\n-    GraphCMS_API\n+    GraphCMS_API:\n   }\n }\n"
                 },
                 {
                     "date": 1644448412315,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /** @type {import('next').NextConfig} */\n module.exports = {\n   reactStrictMode: true,\n   env: {\n-    GraphQL_API:\n+    GraphQL_API: process.env.GraphQL_API\n   }\n }\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /** @type {import('next').NextConfig} */\n module.exports = {\n   reactStrictMode: true,\n   env: {\n-    GraphCMS_API:\n+    GraphCMS_API: process.env.GraphCMS_API\n   }\n }\n"
                 },
                 {
                     "date": 1644448627325,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /** @type {import('next').NextConfig} */\n module.exports = {\n-  reactStrictMode: true,\n+  reactStrictMode: false,\n   env: {\n-    GraphQL_API: process.env.GraphQL_API\n+    GraphQL_API: process.env.GraphQL_API,\n   }\n }\n"
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /** @type {import('next').NextConfig} */\n module.exports = {\n-  reactStrictMode: true,\n+  reactStrictMode: false,\n   env: {\n-    GraphCMS_API: process.env.GraphCMS_API\n+    GraphCMS_API: process.env.GraphCMS_API,\n   }\n }\n"
                 }
             ],
             "date": 1644448374190,

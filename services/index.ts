@@ -1,7 +1,7 @@
 import { request, gql } from "graphql-request";
 
-const GraphQL_API: string = process.env.GraphQL_API
-  ? process.env.GraphQL_API
+const GraphCMS_API: string = process.env.GraphCMS_API
+  ? process.env.GraphCMS_API
   : "";
 
 export const getPosts = async () => {
@@ -29,21 +29,21 @@ export const getPosts = async () => {
       }
     }
   `;
-  const results = await request(GraphQL_API, query);
+  const results = await request(GraphCMS_API, query);
 
   return results.postsConnection.edges;
 };
 
 export const getPostDetails = async (slug: String) => {
   const query = gql`
-  query GetPostDetails ($slug: String!) {
-    post(where: { slug: $slug}) {
-      title
+    query GetPostDetails($slug: String!) {
+      post(where: { slug: $slug }) {
+        title
         excerpt
         featuredImage {
           url
         }
-        author{
+        author {
           name
           bio
           photo {
@@ -59,11 +59,10 @@ export const getPostDetails = async (slug: String) => {
           name
           slug
         }
-          }
-        }
-    
+      }
+    }
   `;
-  const results = await request(GraphQL_API, query, { slug });
+  const results = await request(GraphCMS_API, query, { slug });
 
   return results.post;
 };
@@ -85,7 +84,7 @@ export const getRecentPosts = async () => {
     }
   }
   `;
-  const results = await request(GraphQL_API, query);
+  const results = await request(GraphCMS_API, query);
 
   return results.posts;
 };
@@ -109,7 +108,7 @@ export const getSimilarPosts = async (categories, slug) => {
       }
     }
   `;
-  const results = await request(GraphQL_API, query, { categories, slug });
+  const results = await request(GraphCMS_API, query, { categories, slug });
 
   return results.posts;
 };
@@ -123,7 +122,34 @@ export const getCategories = async () => {
       }
     }
   `;
-  const results = await request(GraphQL_API, query);
+  const results = await request(GraphCMS_API, query);
 
   return results.categories;
+};
+
+export const submitComment = async (object: { name: string; email: string; comment: any; slug: string; }) => {
+  const result = await fetch("/api/comments", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(object),
+  });
+  return result.json();
+};
+
+export const getComments = async (slug: any) => {
+  const query = gql`
+  query GetComments ($slug: String!){
+    comments(where: {post: {slug: $slug}})
+  {
+    name
+    createdAt
+    comment
+  }
+  }
+  `;
+  const results = await request(GraphCMS_API, query, { slug });
+
+  return results.comments;
 };
