@@ -21,7 +21,7 @@ const PostDetails = ({ post }:{post: any}) => {
   return (
     <div className="container mx-auto mb-8 px-10">
       <Head>
-      <title>Lilian's Blog - {post.title}</title>
+      <title>{post.title}</title>
       </Head>
       <div className="grid grid-cols-1 gap-12 lg:grid-cols-12">
         <div className="col-span-1 lg:col-span-8">
