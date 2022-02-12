@@ -5,7 +5,7 @@ import { getRecentPosts, getSimilarPosts } from "../services";
 import { Categories, Post } from "../types";
 
 
-const PostWidget = ({categories, slug}: {categories: Categories, slug: string | null}) => {
+const PostWidget = ({categories, slug}: {categories?: any, slug?: string}) => {
     const [relatedPosts, setRelatedPosts] = useState([])
 
 useEffect(() => {

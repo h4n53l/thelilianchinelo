@@ -21,7 +21,7 @@ export default function Home({posts}:{posts: any}) {
         </div>
         <div className="col-span-1 lg:col-span-4">
           <div className="relative top-8 lg:sticky">
-            <PostWidget categories={null} slug={null} />
+            <PostWidget  />
             <Categories />
           </div>
         </div>
