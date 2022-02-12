@@ -1,7 +1,8 @@
 import moment from 'moment'
 import Link from 'next/link'
+import { Post } from '../types'
 
-const PostCard = ({ post }) => {
+const PostCard = ({ post }: {post: Post}) => {
 
   return (
     <div className="mb-8 rounded-lg bg-white p-0 pb-12 shadow-lg lg:p-8">

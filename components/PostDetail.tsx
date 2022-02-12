@@ -1,9 +1,10 @@
 import moment from 'moment'
 import { Fragment, Key, ReactChild, ReactFragment, ReactPortal } from 'react';
+import { Post } from '../types';
 
-const PostDetail = ({ post }) => {
+const PostDetail = ({ post }: {post: any}) => {
 
-    const getContentFragment = (index, text, obj, type) => {
+    const getContentFragment = (index: any, text: any, obj: any, type?: any) => {
         let modifiedText = text;
     
         if (obj) {

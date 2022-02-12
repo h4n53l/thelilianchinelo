@@ -2,9 +2,10 @@ import moment from "moment";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { getRecentPosts, getSimilarPosts } from "../services";
+import { Categories, Post } from "../types";
 
 
-const PostWidget = ({categories, slug}) => {
+const PostWidget = ({categories, slug}: {categories: Categories | null, slug: string | null}) => {
     const [relatedPosts, setRelatedPosts] = useState([])
 
 useEffect(() => {
@@ -23,7 +24,7 @@ useEffect(() => {
             <h3 className="text-xl mb-8 font-semibold border-b pb-4">
                 {slug ? 'Related Posts' : "Recent Posts"}
                 </h3>
-                {relatedPosts.map((post) => (
+                {relatedPosts.map((post: Post) => (
                     <div 
                     key={post.title} 
                     className="flex items-center w-full mb-4"
@@ -41,13 +42,14 @@ useEffect(() => {
                             <p className="text-gray-500 font-xs">
                                 {moment(post.createdAt).format('DD-MMM-YYYY')}
                             </p>
+                            <div className="text-md">
                             <Link 
                             key={post.title}
                             href={`/post/${post.slug}`}
-                            className="text-md"
                             >
                                 {post.title}
                             </Link>
+                        </div>
                         </div>
                         </div>
                 ))}

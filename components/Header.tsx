@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-const headerLinks = [
+const headerLinks:Array<{name:string, slug:string}> = [
     {name: 'Blog', slug: '/'},
-    {name: 'Forum', slug: 'forum'}
+    {name: 'Announcements', slug: 'announcements'}
 ]
 
 const Header = () => {

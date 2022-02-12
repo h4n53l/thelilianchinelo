@@ -1,15 +1,22 @@
 import Head from 'next/head'
+import { useRouter } from 'next/router';
 import {
   Author,
   Categories,
   Comments,
   CommentsForm,
+  Loader,
   PostDetail,
   PostWidget,
 } from '../../components'
 import { getPostDetails, getPosts } from '../../services'
 
-const PostDetails = ({ post }) => {
+const PostDetails = ({ post }:{post: any}) => {
+  const router = useRouter();
+
+  if (router.isFallback) {
+    return <Loader />;
+  }
     
   return (
     <div className="container mx-auto mb-8 px-10">
@@ -39,7 +46,7 @@ const PostDetails = ({ post }) => {
 
 export default PostDetails
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params }: {params: any}) {
   const data = await getPostDetails(params.slug)
 
   return {
@@ -51,7 +58,7 @@ export async function getStaticPaths() {
     const posts = await getPosts()
 
     return {
-        paths: posts.map(({node: {slug}}) => ({params: {slug}})),
-        fallback: false
+        paths: posts.map(({node: {slug}}:{node: any}) => ({params: {slug}})),
+        fallback: true
     }
 }
