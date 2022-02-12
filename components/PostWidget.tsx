@@ -5,11 +5,11 @@ import { getRecentPosts, getSimilarPosts } from "../services";
 import { Categories, Post } from "../types";
 
 
-const PostWidget = ({categories, slug}: {categories: Categories | null, slug: string | null}) => {
+const PostWidget = ({categories, slug}: {categories: Categories, slug: string | null}) => {
     const [relatedPosts, setRelatedPosts] = useState([])
 
 useEffect(() => {
-    if(slug) {
+    if(slug != null) {
         getSimilarPosts(categories, slug)
         .then((results) => {setRelatedPosts(results)})
     } else {
