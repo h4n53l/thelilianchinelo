@@ -13,4 +13,6 @@ This project comprises of the following tech stack:
 - GraphQL
 
 ## Live Project.
-It is currently hosted on: thelilianchineloblog.vercel.app
+It is currently hosted on: 
+
+https://thelilianchineloblog.vercel.app
